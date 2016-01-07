@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    that might be useful, but this method only good for relatively short code. I am not quite familiar with coding right now, but i think code can be quite long, where the diff function might not be very useful in that case.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    this could be super helpful, because we are editing files all the time and not all the edition are good, if we did a bad change, being able to access the old file will be super important.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Git: pros — might have just right amount of files, not too many, not too few.
+	cons - sometimes if we forget about creating a commit, it could become a disaster.
+    auto: pros - might have too many or too few files if the auto save system create the commit on the wrong timing.
+	cons - it could save you if you are a massy file creator.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think they are designed for different kind of usage. Git is specifically for coding, which you may need to change multiple files one time, while google doc is design for docs like words, excels which normally don’t connect to other file that often.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Use the git log to get the log id first, then we can compare them to see how many changes being made from time to time by using git diff.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    because you know that you can recover it by checkout the previous version anytime to find out the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I will use it for building my duo table website
+
