@@ -3,3 +3,30 @@ when you initialize a repository, you can creating commits and start tracking yo
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 From my point of view, staging area is like a distribution center which collect files in working directory which need to be delivered to repository. So you only have to deliver a batch of good once instead of several times.
+
+How can you use the staging area to make sure you have one commit per logical change?
+there are three ways of using git diff:
+1. git diff: checking the changes between directory and stage
+2. git diff —-staged: checking the changes between stage and last commit
+3. git diff commit 1 commit 2: checking the changes between commits.
+So to answer this question, use the second git diff —-staged to make sure I have on commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+It would be helpful when I need to create some test function or a different version of language. While I can still maintain the master/main file.
+
+How do the diagrams help you visualize the branch structure?
+It helps a lot, by visualizing it with diagrams, I know the function each branch may or may not have. I can tell what this branch going to work to where. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When we merging two branches together, we combine all the functions of two different commits.
+The diagram show the clear path of how each branches’ evolution.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+auto: 
+	pros:easy, time-saving
+	cons: could cause error
+
+manual: 
+	pros:make sure every merges is in the good shape and won’t cause any error
+	cons:time-consuming
